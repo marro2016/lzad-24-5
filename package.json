@@ -1,0 +1,19 @@
+{
+  "name": "zadanie_24_5",
+  "version": "1.0.0",
+  "description": "Unit-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/calculateTotalPoints.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "keywords": [
+    "Unit-test"
+  ],
+  "author": "Marcin",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^4.0.0"
+  }
+}
